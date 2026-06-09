@@ -1,0 +1,35 @@
+{
+  "name": "ark-trust",
+  "version": "0.1.0",
+  "description": "🛡 ARK — Agent Reliability Kit. Trust infrastructure for AI agents. TypeScript/Node.js SDK.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "reliability",
+    "trust",
+    "idempotency",
+    "circuit-breaker",
+    "langchain"
+  ],
+  "repository": "github:wzg0911/ark",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  }
+}
