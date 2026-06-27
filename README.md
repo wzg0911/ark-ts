@@ -6,7 +6,7 @@
 [![Tests](https://img.shields.io/badge/tests-20/20-green)](https://github.com/wzg0911/ark-ts)
 [![npm](https://img.shields.io/badge/npm-@feilunxitong/arkit-blue)](https://www.npmjs.com/package/@feilunxitong/arkit)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
-[![ARK Trusted](https://wzg0911.github.io/ark/badges/arkit-badge.svg)](https://github.com/wzg0911/ark-ts)
+[![ARK Trusted](https://cdn.jsdelivr.net/gh/wzg0911/ark@main/badges/arkit-badge.svg)](https://github.com/wzg0911/ark-ts)
 
 ```bash
 npm install @feilunxitong/arkit
