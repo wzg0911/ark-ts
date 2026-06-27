@@ -3,16 +3,17 @@
 > **Trust infrastructure for AI agents.** Now in TypeScript.
 > Stripe-level idempotency × Sentinel circuit breakers × OpenTelemetry tracing × IDE-style validation.
 
-[![Tests](https://img.shields.io/badge/tests-16/16-green)](https://github.com/wzg0911/ark-ts)
-[![npm](https://img.shields.io/badge/npm-ark--trust-blue)](https://www.npmjs.com/package/ark-trust)
+[![Tests](https://img.shields.io/badge/tests-20/20-green)](https://github.com/wzg0911/ark-ts)
+[![npm](https://img.shields.io/badge/npm-@feilunxitong/arkit-blue)](https://www.npmjs.com/package/@feilunxitong/arkit)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
+[![ARK Trusted](https://wzg0911.github.io/ark/badges/arkit-badge.svg)](https://github.com/wzg0911/ark-ts)
 
 ```bash
-npm install ark-trust
+npm install @feilunxitong/arkit
 ```
 
 ```typescript
-import { IdempotencyGuard, CircuitBreaker, autoInit } from 'ark-trust';
+import { IdempotencyGuard, CircuitBreaker, autoInit } from '@feilunxitong/arkit';
 
 // 🛡 Never run duplicate tool calls
 const guard = new IdempotencyGuard();
