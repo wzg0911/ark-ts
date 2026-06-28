@@ -1,7 +1,7 @@
 {
-  "name": "ark-trust",
-  "version": "0.1.0",
-  "description": "🛡 ARK — Agent Reliability Kit. Trust infrastructure for AI agents. TypeScript/Node.js SDK.",
+  "name": "@feilunxitong/arkit",
+  "version": "0.1.2",
+  "description": "🛡 ARKit — Agent Reliability Kit. Trust infrastructure for AI agents. TypeScript/Node.js SDK. (feilunxitong fork)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -22,7 +22,10 @@
     "circuit-breaker",
     "langchain"
   ],
-  "repository": "github:wzg0911/ark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzg0911/ark-ts.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.9.2",
@@ -31,5 +34,10 @@
   },
   "dependencies": {
     "zod": "^4.4.3"
-  }
+  },
+  "author": "feilunxitong",
+  "bugs": {
+    "url": "https://github.com/wzg0911/ark-ts/issues"
+  },
+  "homepage": "https://github.com/wzg0911/ark-ts#readme"
 }
