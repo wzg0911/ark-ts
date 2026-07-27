@@ -49,6 +49,12 @@ const { guard: g, breaker: b, validator: v, score: s } = autoInit();
 
 **25KB total** · 16/16 tests · Node.js 18+ / TypeScript 5.x
 
+## A real crash we diagnosed
+
+We ran ARK through a recent OpenClaw issue ([#113434](https://github.com/openclaw/openclaw/issues/113434)): `sessions.reset` retires the generation but reuses the same session ID, so the next turn self-rejects — and unbounded catalog scans quietly exhaust gateway RAM. Full root-cause + fix code here: https://ark-6ek.pages.dev/reports/openclaw-113434.html
+
+If your agent has hit anything in that family, the report is a decent place to start.
+
 ## Quick Demo
 
 ```typescript
